@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 430px;
+    background: white;
+    padding: 35px 25px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #182848;
+    margin-bottom: 12px;
+    font-size: 28px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #315b91;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    background: #315b91;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background: #203e68;
+}
+
+#clearBtn {
+    background: #dc3545;
+}
+
+#clearBtn:hover {
+    background: #b02a37;
+}
+
+#qrCode {
+    margin: 20px auto;
+}
+
+#qrCode img {
+    max-width: 100%;
+    height: auto;
+    border: 8px solid white;
+}
+
+#downloadBtn {
+    background: #198754;
+}
+
+#downloadBtn:hover {
+    background: #146c43;
+}
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #cbd5e1;
+    font-size: 14px;
+}
